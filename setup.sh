@@ -1,8 +1,3 @@
-mkdir -p vlayer-proof-app/{frontend/{src/{components,pages,hooks,context,services,utils,styles,assets/{images,animations}},public},backend/{src/{controllers,services,routes,middleware,utils,db,models},scripts},contracts/{src,scripts,test}}
-# Inisialisasi repository
-cd vlayer-proof-app
-git init
-
 # Buat file .gitignore
 cat > .gitignore << 'EOF'
 # Dependencies
